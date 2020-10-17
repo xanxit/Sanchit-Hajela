@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.myBtn {
+
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color:#370D32 ;
+  color: white;
+  cursor: pointer;
+  border-radius: 9px;
+  font-size: 18px;
+  padding: 10px;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.myBtn:hover {
+  background: none;
+  color: violet;
+}
+.navbar
+{
+  width: 100%;
+  position: fixed;
+  padding: 30 0px ;
+  z-index: 999;
+}
+.sticky
+{
+  background: purple;
+  padding:10px 0px;
+  border-radius: 12px;
+
+}
+.navbar .class1 .class2 span
+{
+  color: white	;
+}
+.navbar .class1 li a
+{
+  color :black;
+  font-size: 20px;
+  font-weight: 800;
+  transition: 0.3s ease;
+}
+.navbar .class1 li a:hover
+{
+  color: violet;
+}
+
+.navbar .class1 li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .class2 a
+{
+  color: black;
+  font-size: 3rem;
+
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 600;
+}
+.class1
+{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  max-width: 1080 px;
+  padding: 0 80px;
+  margin: auto;
+}
+.home
+{
+  display: flex;
+  background :url("images/bg.png") no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+
+
+}
+.home .class1
+{
+  margin: auto 0 auto 40px;
+}
+.home .class1content .txt1
+{
+  font-size: 27px;
+}
+.home .class1content .txt2
+{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .class1content .txt3
+{
+  font-size: 40px;
+  margin: 30px 0;
+
+}
+.home .class1content .txt3 span
+{
+    color: violet;
+  font-weight: 500;
+
+
+}
+.home .class1content a
+{
+  display: inline-block;
+  color: white;
+  background: #370D32;
+  padding: 25px;
+  font-size: 25px;
+  border: 2px solid #370D32;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+
+}
+.home .class1content a:hover
+{
+  background: none;
+  border-color: #370D32;
+}
+.class3{
+  position:relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+  padding: 90px 15px;
+}
+.class3::before{
+  position: absolute;
+  content: "";
+  width: 220px;
+  height: 3px;
+  background: black;
+
+}
+.class3::after
+{
+  font-size: 2rem;
+    position: absolute;
+    content: "Who am I?";
+    bottom: -7px;
+    padding: 5px;
+    color:purple;
+    border-radius: 12px;
+    transform: translateX(-50%);
+}
+.class4 img
+{
+  object-fit: cover;
+  border-radius: 12px;
+
+
+}
+.class5
+{
+  text-align: left;
+  font-family: "Ubuntu",sans-serif;
+  font-size: 25px;
+}
+.class5 a
+{
+  border: 2px solid purple;
+  border-color: purple;
+  border-radius: 12px;
+  background: purple;
+  color: white;
+  padding: 5px;
+}
+.class5 a:hover{
+  background: white;
+  color: black;
+
+}
+.class6{
+  position:relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+  padding: 90px 15px;
+
+}
+.class6::before{
+  position: absolute;
+  content: "";
+  width: 280px;
+  height: 3px;
+  background: black;
+
+}
+.class6::after{
+  position: absolute;
+  content: "What I Did !!";
+  width: 280px;
+  color: purple;
+  height: 3px;
+  font-size: 2rem;
+    transform: translateX(-50%);
+
+}
+.proj
+{
+
+  color:black;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 20px;
+  border-radius: 25px;
+  text-align: left;
+  border: 2px solid purple;
+  border-color: purple;
+  font-family: sans-serif;
+  /* font-weight: 450; */
+
+}
+.class7
+{
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size:  1.15rem;
+}
+.class8{
+  position:relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+    padding: 20px;
+    border-radius: 25px;
+   }
+
+   .skills{
+     background: black;
+     color: white;
+     padding-top:  50px;
+     padding-bottom: 50px;
+     /* padding-right: 500px; */
+     padding-left: 50px;
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+   }
+.top-container{
+  border: 2px solid purple;
+  border-radius: 12px;
+  padding: 20px;
+  padding-right: 80px;
+  margin-left: 150px;
+  font-family: "Ubuntu",sans-serif;
+
+}
+
+.class8::before{
+  position: absolute;
+  content: "";
+  width: 210px;
+  height: 3px;
+  background: black;
+
+}
+.class8::after{
+  position: absolute;
+  content: "";
+  width: 210px;
+  color: purple;
+  font-size: 2rem;
+  height: 3px;
+  transform: translateX(-50%);
+
+}
+.class12{
+  position:relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+    padding: 20px;
+    border-radius: 25px;
+   }
+   .class12::before{
+     position: absolute;
+     content: "";
+     width: 230px;
+     height: 3px;
+     background: black;
+
+   }
+.teams
+{
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.class13
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left:370px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+
+}
+.img2
+{
+  border-radius: 160px;
+  border : 3px solid purple;
+  margin-left: 0px;
+}
+
+.img1
+{
+  border-radius: 150px;
+  border: 3px solid purple;
+  margin-left: -100px;
+}.class14 button
+{
+  border: 3px solid purple;
+  background: black;
+  width: 350px;
+  color: white;
+  border-radius: 12px;
+  font-family: "Ubuntu",sans-serif;
+  cursor: pointer;
+ }
+.cla
+{
+  padding: 50px;
+  margin-left: 80px;
+  font-family: "Ubuntu",sans-serif;
+}
+.class14 button:hover
+{
+  background: #370D32;
+  border: none;
+}
+.class15 button{
+  border: 3px solid purple;
+  background: black;
+  width: 350px;
+  color: white;
+  border-radius: 12px;
+  margin-left: 100px;
+  cursor: pointer;
+  font-family: "Ubuntu",sans-serif;
+}
+.clp
+{
+  padding: 50px;
+
+  font-family: "Ubuntu",sans-serif;
+
+}
+.class15 button:hover
+{
+  background:#370D32;
+  border: none;
+}
+.name2
+{
+  font-family: "Ubuntu",sans-serif;
+  margin-left: 0px;
+}
+.name1
+{
+  margin-left: -90px;
+
+  font-family: "Ubuntu",sans-serif;
+}
+.para1
+{
+  margin-left: -90px;
+
+  font-family: "Ubuntu",sans-serif;
+}
+.para2
+{
+
+  font-family: "Ubuntu",sans-serif;
+}
+.Mail1 table
+{
+  margin-left: 80px;
+}
+.Mail2 table
+{
+    margin-left: 80px;
+}
+.im11,.im12,.im13,.im14
+{
+  border-radius: 50%;
+  border: 3px solid purple;
+}
+.im21,.im22,.im23,.im24
+{
+  border-radius: 50%;
+    border: 3px solid purple;
+}
+
+.contact .title
+{
+  position:relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+    padding: 20px;
+    border-radius: 25px;
+}
+.contact .title::before
+{
+  position: absolute;
+  content: "";
+  width: 210px;
+  height: 3px;
+  background: black;
+
+}
+.contact .title::after{
+    content: "Get in touch";
+    position:absolute;
+    font-size: 2rem;
+    width: 290px;
+    color: purple;
+    height: 3px;
+    transform: translateX(-50%);
+
+}
+/* .contact .contact-content .column{
+    width: calc(50% - 30px);
+} */
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row img{
+    font-size: 25px;
+    color: #370D32;
+    border-radius: 50%;
+    border: 2px solid #370D32;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: inline-block;
+      justify-content: space-between;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 50%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 200px;
+    width: 200%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact.right.text
+{
+  margin-left: 10px;
+}
+.contact .right form .email{
+    margin-left: 0px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 150%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+    padding-top: 0px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #370D32;
+    background: #370D32;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: #370D32;
+    background: none;
+}
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: purple;
+    text-decoration: none;
+
+}
+.credits
+{
+    margin-top: 50px;
+}
+footer span a:hover{
+    text-decoration: underline;
+    color:white;
+}
+.wd
+{
+  border-radius: 50%;
+}
+.sql
+{
+  border-radius: 50%;
+}
+.Mail3
+{
+  margin-left: 650px;
+  /* margin top: 50px; */
+  padding-top: 70px;
+}
+.class9
+{
+  margin-left: 300px;
+  margin-right: 200px;
+}
