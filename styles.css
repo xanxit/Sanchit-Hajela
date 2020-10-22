@@ -268,7 +268,12 @@ html{
   font-family: "Ubuntu",sans-serif;
 
 }
+.top-container:hover
+{
 
+  background:#370D32;
+
+}
 .class8::before{
   position: absolute;
   content: "";
